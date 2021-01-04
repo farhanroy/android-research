@@ -15,7 +15,7 @@ sdpssp = 1.0.6
 
 clone my github repository
 ```
-git clone https://github.com/roy1441/CatatApp.git
+git clone https://github.com/farhanroy/android-research.git
 ```
 ## Version
 v1.0
@@ -23,16 +23,16 @@ v1.0
 <table>
       <tr>
         <td>
-          <img src="https://github.com/roy1441/CatatApp/blob/master/screenshots/screenshot-2020-02-04_12.32.13.989.png" width="250"> 
+          <img src="https://github.com/farhanroy/android-research/blob/main/roomdb/screenshots/screenshot-2020-02-04_12.32.13.989.png" width="250"> 
         </td>
         <td>
-          <img src="https://github.com/roy1441/CatatApp/blob/master/screenshots/screenshot-2020-02-04_12.32.27.056.png" width="250"> 
+          <img src="https://github.com/farhanroy/android-research/blob/main/roomdb/screenshots/screenshot-2020-02-04_12.32.27.056.png" width="250"> 
         </td>
         <td>
-          <img src="https://github.com/roy1441/CatatApp/blob/master/screenshots/screenshot-2020-02-04_12.36.26.518.png" width="250"> 
+          <img src="https://github.com/farhanroy/android-research/blob/main/roomdb/screenshots/screenshot-2020-02-04_12.36.26.518.png" width="250"> 
         </td>
         <td>
-          <img src="https://github.com/roy1441/CatatApp/blob/master/screenshots/screenshot-2020-02-04_12.36.34.911.png" width="250"> 
+          <img src="https://github.com/farhanroy/android-research/blob/main/roomdb/screenshots/screenshot-2020-02-04_12.36.34.911.png" width="250"> 
         </td>
       </tr>
     </table>
