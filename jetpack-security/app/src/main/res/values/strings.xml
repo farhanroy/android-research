@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="shared_pref">Shared Preferences</string>
+    <string name="file">Files</string>
+    <string name="ed_data">Isi Data</string>
+    <string name="save">Save</string>
+    <string name="save_encrypted">Save Encrypted</string>
+    <string name="stored_values">Stored Values</string>
+    <string name="value_x">Value X</string>
+    <string name="value_jetpack_x">Value Jetpack X</string>
+    <string name="value_encrypted_x">Value Encrypted x</string>
+    <string name="enter_any_value">Enter any value</string>
+    <string name="save_file">Save File</string>
+    <string name="save_file_encrypted">Save File Encrypted</string>
+    <string name="read_file">Read File</string>
+    <string name="show_content">Show Content</string>
+    <string name="read_file_encrypted">Read File Encrypted</string>
+    <string name="file_not_found">File not found</string>
+    <string name="file_saved">File Saved</string>
+</resources>
