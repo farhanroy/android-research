@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="vm"
+            type="com.kimochi.note.modules.detail.viewmodel.DetailVM" />
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--HEADER-->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:menu="@menu/detail_menu"
+            app:popupTheme="@style/AppTheme"/>
+        <!--Content-->
+        <LinearLayout
+            android:padding="@dimen/margin_content_medium"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--TITLE-->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:text="@string/txt_title"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/font_semilarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_title"
+                android:text="@={vm.title}"
+                android:textSize="@dimen/font_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_content_small"
+                tools:text="Catatan Hari Ini"/>
+            <!--Description-->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_marginTop="@dimen/margin_content_medium"
+                android:text="@string/txt_desc"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/font_semilarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_description"
+                android:text="@={vm.desc}"
+                android:textSize="@dimen/font_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_content_small"
+                tools:text="Hari ini aku mau..."/>
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

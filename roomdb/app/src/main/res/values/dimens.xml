@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_content_small">@dimen/_8sdp</dimen>
+    <dimen name="margin_content_medium">@dimen/_16sdp</dimen>
+
+    <!-- FONT SIZE -->
+    <dimen name="font_super_small">@dimen/_6ssp</dimen>
+    <dimen name="font_very_small">@dimen/_8ssp</dimen>
+    <dimen name="font_small">@dimen/_10ssp</dimen>
+    <dimen name="font_normal">@dimen/_12ssp</dimen>
+    <dimen name="font_semilarge">@dimen/_14ssp</dimen>
+    <dimen name="font_large">@dimen/_16ssp</dimen>
+    <dimen name="font_superlarge">@dimen/_18ssp</dimen>
+    <dimen name="font_big">@dimen/_20ssp</dimen>
+</resources>

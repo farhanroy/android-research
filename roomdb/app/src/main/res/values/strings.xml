@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">note</string>
+    <string name="save">Save</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">write...</string>
+    <string name="txt_title">Title</string>
+    <string name="txt_desc">Description</string>
+    <string name="extra_note">EXTRA_NOTE</string>
+    <string name="detail_toolbar">Detail Note</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+    <string name="extra_edit">EXTRA_EDIT</string>
+</resources>
