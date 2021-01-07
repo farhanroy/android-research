@@ -2,6 +2,8 @@
 
 Aplikasi machine lerning yang menggunakan library MLkit dari firebase dan CameraX sebagai library kamera yang ter-include dalam jetpack component. Aplikasi ini dibuat sebagai hasil research saya belajar tentang machine learning di android dan penggunaan kamera menggunakan library ``CameraX``.
 
+link download ======> https://dply.me/toowxj
+
 ## Fitur
 - Barcode Scanner
 - Face Detection
