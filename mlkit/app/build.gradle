@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'
 }
 
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
@@ -17,14 +18,17 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildFeatures {
         viewBinding true
     }
 
     buildTypes {
+        debug {
+            minifyEnabled true
+        }
         release {
-            minifyEnabled false
+            minifyEnabled true
+            debuggable false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
