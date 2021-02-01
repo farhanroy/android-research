@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TFlite Classifier</string>
+    <string name="unknown">Unknown</string>
+    <string name="capture_button_alt">Capture Image</string>
+</resources>
