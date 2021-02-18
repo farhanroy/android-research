@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HiltTodo</string>
+    <string name="save">Save</string>
+    <string name="hint_text">What do you want to do ?</string>
+</resources>
