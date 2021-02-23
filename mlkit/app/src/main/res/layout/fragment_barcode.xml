@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         app:scaleType="fillCenter" />
 
-    <com.android.mlkit.camerax.GraphicOverlay
+    <com.detect.me.camerax.GraphicOverlay
         android:id="@+id/graphicOverlayFinder"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/barcodeFragment"
-        android:name="com.android.mlkit.ui.barcode.BarcodeFragment"
+        android:name="com.detect.me.ui.barcode.BarcodeFragment"
         android:label="fragment_barcode"
         tools:layout="@layout/fragment_barcode" />
     <fragment
         android:id="@+id/faceFragment"
-        android:name="com.android.mlkit.ui.face.FaceFragment"
+        android:name="com.detect.me.ui.face.FaceFragment"
         android:label="fragment_face"
         tools:layout="@layout/fragment_face" />
     <fragment
         android:id="@+id/objectFragment"
-        android:name="com.android.mlkit.ui.object.ObjectFragment"
+        android:name="com.detect.me.ui.object.ObjectFragment"
         android:label="fragment_object"
         tools:layout="@layout/fragment_object" />
     <fragment
         android:id="@+id/textFragment"
-        android:name="com.android.mlkit.ui.text.TextFragment"
+        android:name="com.detect.me.ui.text.TextFragment"
         android:label="fragment_text"
         tools:layout="@layout/fragment_text" />
 </navigation>
